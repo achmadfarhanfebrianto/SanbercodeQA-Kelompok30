@@ -1,0 +1,19 @@
+run requirement :
+
+1. cypress-file-upload should be installed
+2. faker should be installed
+2. In example.json file, add the following entry to allow to run only the main spec file:
+    "testFiles": ["main.spec.js"],
+
+run command :
+npx cypress run --headed --browser edge
+
+Cypress supports the following browsers:
+ - electron
+ - chrome
+ - chromium
+ - chrome:canary
+ - edge
+ - firefox
+
+You can also use a custom browser: https://on.cypress.io/customize-browsers
